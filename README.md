@@ -3,9 +3,10 @@ This is online TeenPatti game over Android with 3 Tables differing on cost of be
 
 <img src="http://appswale.com/teenpatti.jpeg">
 
-<b>Code:<b/>
+Source Code
 
-Android Branch:  
+Android Source Code:  
+Take a pull with branch name android.
 
-
-NodeJS Branch:
+NodeJS Source Code:
+Take a pull with branch name node.
