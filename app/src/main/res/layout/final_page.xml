@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/final_page">
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/curtain"-->
+        <!--android:scaleType="centerCrop"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="80dip"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:layout_width="80dip"-->
+            <!--android:layout_height="80dip"-->
+            <!--android:src="@mipmap/logo"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="30dip"-->
+        <!--android:layout_marginLeft="40dip"-->
+        <!--android:layout_marginRight="40dip">-->
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/profile_image"-->
+                <!--android:layout_width="60dip"-->
+                <!--android:layout_height="60dip"-->
+                <!--android:src="@mipmap/user_icon"-->
+                <!--app:border_color="#FFFF"-->
+                <!--app:border_width="3dip"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="#fcce01"-->
+                <!--android:textSize="20dip"-->
+                <!--android:layout_marginLeft="55dip"-->
+                <!--android:paddingLeft="20dip"-->
+                <!--android:text="User Name"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+        <!--</RelativeLayout>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

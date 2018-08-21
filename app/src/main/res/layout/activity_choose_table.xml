@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_final_page"
+    tools:context="com.appswale.teenpatti.Activities.Choose_Table">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        >
+        <TextView
+            android:id="@+id/playerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_name"
+            android:paddingLeft="20dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:paddingRight="20dip"
+            android:layout_marginLeft="48dip"
+            android:layout_marginTop="12dip"
+            android:text="Ajay "
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/playerImage"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@mipmap/user_icon"
+            app:border_color="#FFFF"
+            app:border_width="3dip"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        >
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_setting"
+            android:padding="10dip"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logout"
+            android:padding="10dip"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dip"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <ImageView
+                    android:id="@+id/bronze"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/gold"
+                    />
+                <ImageView
+                    android:id="@+id/silver"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/silver"
+                    />
+                <ImageView
+                    android:id="@+id/gold"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bronze"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/host"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/playerPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_name"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:paddingRight="10dip"
+            android:layout_marginLeft="38dip"
+            android:layout_marginTop="8dip"
+            android:text="Ajay "
+            android:visibility="gone"
+            />
+        <ProgressBar
+            android:id="@+id/pointsProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:background="@drawable/border_name"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:paddingRight="10dip"
+            android:layout_marginLeft="38dip"
+            android:layout_marginTop="8dip"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@mipmap/ic_coin"
+            app:border_color="#FFFF"
+            app:border_width="3dip"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:gravity="center_horizontal"
+                >
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:id="@+id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone"
+                    >
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/loginTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    >
+                    <Button
+                        android:id="@+id/login"
+                        android:layout_width="90dip"
+                        android:layout_height="30dip"
+                        android:textColor="#4e8912"
+                        android:text="LOGIN"
+                        android:textStyle="bold"
+                        android:textSize="12dip"
+                        android:background="@drawable/button_login"
+                        android:layout_marginRight="12dip"/>
+                    <Button
+                        android:id="@+id/register"
+                        android:layout_width="90dip"
+                        android:layout_height="30dip"
+                        android:textColor="#4e8912"
+                        android:textStyle="bold"
+                        android:textSize="12dip"
+                        android:text="REGISTER"
+                        android:background="@drawable/button_login"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
