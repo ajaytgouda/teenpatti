@@ -16,6 +16,6 @@ compile 'cz.msebera.android:httpclient:4.4.1.1'</br>
 compile 'com.google.code.gson:gson:2.7'</br>
 compile('io.socket:socket.io-client:0.7.0') </br>
 
-RealTime connection made with Socket.IO Android client</br>
+<b>RealTime connection made with Socket.IO Android client</b></br>
 Documentation</br>
 <a href="https://socket.io/blog/native-socket-io-and-android/"> https://socket.io/blog/native-socket-io-and-android/</a>
