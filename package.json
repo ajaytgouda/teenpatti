@@ -1,0 +1,34 @@
+{
+  "name": "teenpatti",
+  "version": "1.0.0",
+  "description": "Teen Patti server side",
+  "main": "app.js",
+  "scripts": {
+      "start": "node app.js",
+      "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://appswale@bitbucket.org/appswale/teenpatti.git"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "4.15.2",
+    "fs": "0.0.2",
+    "mysql": "2.13.0",
+    "multer": "1.3.0",
+    "socket.io": "^1.7.3",
+    "underscore": "~1.7.0"
+  },
+  "keywords": [
+    "teenpatti",
+    "Teen",
+    "Patti",
+    "Teen",
+    "Patti",
+    "Gold"
+  ],
+  "author": "Appswale",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/appswale/teenpatti#readme"
+}
